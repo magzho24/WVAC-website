@@ -1,0 +1,98 @@
+.mx-10{
+    margin-left: 6vw;
+    margin-right: 6vw;
+  }
+  .mx-20{
+    margin-left: 22vw;
+    margin-right: 22vw;
+  }
+
+  .navbar-nav a{
+    color:#20244d;
+  }
+  .footer{
+    margin-top: 150px;
+    width:100%;
+    padding: 80px 10%;
+    align-items: center;
+    color:rgb(234, 233, 233);
+    background:#20244d;
+  
+  }
+  .carousel-item img{
+    max-height: 500px;
+  }
+  .margins{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 7rem;
+    border-color:rgb(240, 240, 240);
+
+  }
+  h1{
+    color:#20244d;
+
+  }
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:32vw;
+  }
+  .custom-button{
+    text-decoration: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(82, 48, 255);
+    border-radius: 2px;
+  }
+  .custom-button:hover{
+    background-color: rgb(66, 38, 206);
+    transition: 0.7s;
+  }
+  .right {
+    float: right;
+    padding: 0 0 0 20px;
+  }
+  
+  .navbar-shadow{
+    box-shadow: 0 4px 10px rgb(128, 127, 127);
+  }
+  .fa {
+    padding: 12px;
+    width: 40px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    background: #3B5998;
+  }
+  .fa:hover{
+    background:#2e4372;
+    color:rgba(254, 254, 254, 0.368);
+    transition: 0.7s;
+  }
+  .text-bg-info{
+    background-color:#e2e7ed!important;
+    color:#20244d!important;
+    border-radius: 4px;
+  }
+  
+  @media only screen and (max-device-width: 850px){
+    .parallax {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:32vw;
+    }
+  }
+  
